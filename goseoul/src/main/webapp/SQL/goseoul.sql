@@ -30,8 +30,8 @@ CREATE SEQUENCE gos_seq
 insert into goseoul values(
 	gos_seq.nextval,
 	'02',
-	'1000',
 	'둘리와 또치',
+	'3000',
 	'둘리는 또치랑 친하다',
 	'맛집',
 	'둘리',
@@ -41,5 +41,19 @@ insert into goseoul values(
 	sysdate
 	)
 
-
+insert into goseoul values(
+	gos_seq.nextval,
+	'05',
+	'마이콜',
+	'100',
+	'라면과 구공탄',
+	'여행',
+	'꼰대',
+	0,
+	1,
+	-1,
+	sysdate
+	);
+	
+	
 
